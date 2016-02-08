@@ -7,6 +7,7 @@ In order to use the logging capabilities in the AMPScript file ampscript-logger.
 | Logging | logId | Text(50) |
 | Logging | logTime | Date (set as system current date)|
 | Logging | logText | Text(50) | 
+| Logging | logType | Text(50) |
 
 # Why use the AMPScript Logger
 
