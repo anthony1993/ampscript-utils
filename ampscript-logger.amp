@@ -2,4 +2,4 @@ var logId
 
 set logId = GUID()
 
-InsertData("Logging", "logId", "logType", "ERROR|DEBUG|INFO", @logId, "logText", "Your text or variables here...")
+InsertData("Logging", "logId", @logId, "logType", "ERROR|DEBUG|INFO", "logText", "Your text or variables here...")
