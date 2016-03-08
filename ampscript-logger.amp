@@ -1,5 +1,5 @@
-var logId
+var @logId
 
-set logId = GUID()
+set @logId = GUID()
 
 InsertData("Logging", "logId", @logId, "logType", "ERROR|DEBUG|INFO", "logText", "Your text or variables here...")
